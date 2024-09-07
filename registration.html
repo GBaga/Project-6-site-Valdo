@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაცია</title>
+    <link rel="icon" type="image/x-icon" href="./sources/icons/icons8-increase-48.png">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+
+<body>
+    <header class="d-flex">
+        <div class="container d-flex">
+            <a href="./index.html">
+                <img class="logo" src="./assets/icons/laptop-code-solid.svg" alt="საიტის ლოგო">
+            </a>
+            <nav>
+                <div>
+                    <a href="/index.html">მთავარი</a>
+                    <a href="./help.html">დახმარება</a>
+                    <a href="./index.html">ბლოგი</a>
+                    <a href="#">წესები</a>
+                    <a href="/contact.html">კონტაქტი</a>
+                </div>
+                <div>
+                    <a href="./registration.html">რეგისტრაცია</a>
+                    <a href="./authorisation.html">შესვლა</a>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <span>მენიუ</span>
+                <img src="./assets/icons/bars-solid.svg" width="15px" alt="menu-icon-bars">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="auth-form-container">
+            <form action="" method="get">
+                <div class="form-group">
+                    <label class="text-input-lable" for="firstName">სახელი</label>
+                    <input class="text-input" type="text" name="firstName" id="firstName"
+                        placeholder="ჩაწერეთ თქვენი სახელი">
+                </div>
+                <div class="form-group">
+                    <label class="text-input-lable" for="lastName">გვარი</label>
+                    <input class="text-input" type="text" name="lastName" id="lastName"
+                        placeholder="ჩაწერეთ თქვენი გვარი">
+                </div>
+                <div class="form-group">
+                    <label class="text-input-lable" for="userEmail"> მომხმარებლის ელ-ფოსტა</label>
+                    <input class="text-input" type="email" name="userEmail" id="userEmail"
+                        placeholder="ჩაწერეთ თქვენი ელ-ფოსტა">
+                </div>
+                <div class="form-group">
+                    <label class="text-input-lable" for="birthDate">დაბადების თარიღი</label>
+                    <input class="text-input" type="date" name="birthDate" id="birthDate">
+                </div>
+                <div class="form-group">
+                    <label class="text-input-lable" for="birthPlace">დაბადების ადგილი</label>
+                    <select class="locations" name="" id="">
+                        <option value="">საქართველი</option>
+                        <option value="">ამერიკა</option>
+                        <option value="">ევროპა</option>
+                        <option value="">აზია</option>
+                        <option value="">აფრიკა</option>
+                        <option value="">ავსტრალია</option>
+                        <option value="">სხვა</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <div class="sex-container">
+                        <input type="radio" name="sex" id="male">
+                        <label for="male">კაცი</label>
+                    </div>
+                    <div class="sex-container">
+                        <input type="radio" name="sex" id="female">
+                        <label for="female">ქალი</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="text-input-lable" for="pass">პაროლი</label>
+                    <input class="text-input" type="password" name="pass" id="pass" placeholder="ჩაწერეთ პაროლი">
+                </div>
+                <div class="form-group">
+                    <label class="text-input-lable" for="repeatPass">გაიმეორე პაროლი</label>
+                    <input class="text-input" type="password" name="repeatPass" id="repeatPass"
+                        placeholder="გაიმეორეთ პაროლი">
+                </div>
+                <button class="btn btn-primary w-100 mb-15">რეგისტრაცია</button>
+                <a class="btn btn-link" href="./authorisation.html">ავტორიზაცია</a>
+            </form>
+        </div>
+    </main>
+
+    <footer class="d-flex">
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </footer>
+</body>
+
+</html>
