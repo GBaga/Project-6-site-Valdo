@@ -93,16 +93,11 @@
         justify-content: space-between;
     }
 
-    footer {
-        /* height: initial; */
-    }
-
     /* contact page */
 
     .container.contact > div {
         grid-column: 1 / span 2;
     }
-
 }
 
 /* mobile phones */
